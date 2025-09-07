@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0;
+        line-height: 35px;
+    }
+
+    body {
+        background-image: url(12.jpg);
+        background-repeat: no-repeat;
+        font-family: Arial,sans-serif;
+        width: 100%;
+        height: 100%;
+        background-attachment: scroll;
+        font-size: large;
+        line-height: 10px;
+    }
+    img {
+        width: 100%;
+    }
+    .container {
+        display: flex;   
+        flex-direction: row;
+       
+    }
+    label {
+        font-size:x-large;
+
+    }
+    .one {
+        color: white;
+        padding-top: 100px;
+        padding-left: 400px;
+
+    }
+    .two {
+        color: white;
+        padding-top: 100px;
+        padding-left: 100px;
+
+    }
+     input {
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        width: 220px;
+    }
+    .long {
+        width: 450px;
+        padding: 5px;
+    }
+    #password {
+        width: 300px;
+        padding: 5px;
+    }
+    #signin {
+        width: 145px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: red;
+        font-size: larger;
+
+    }
+    select {
+        width: 200px;
+        height: 45px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    #signup {
+        width: 250px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: red;
+        font-size: larger;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="one"><br><br>
+
+        <h1>Welcome to TweetHub.</h1>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <br> Assumenda laboriosam deserunt debitis libero maxime
+            <br> recusandae incidunt obcaecati ullam commodi! Nihil 
+    </div>
+    <div class="two">
+        <form action="">
+            <label for="">Sign in</label><br>
+            <input type="text" class="long" placeholder="Username"><br>
+            <input type="password" placeholder="Password" id="password">  <button id="signin">Sign in</button>
+        </form>
+        <br>
+        <form action="">
+            <label for="">Sign Up</label><br>
+            <input type="text" class="long"><br>
+            <input type="password" class="long"><br>
+            <input type="text"> <input type="text"><br>
+            <select name="" id="">
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+            &nbsp; <button id="signup">Sign up </button>
+        </form>
+    </div>
+
+
+
+    </div>
+    
+</body>
+</html>

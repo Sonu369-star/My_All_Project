@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance CSS </title>
+</head>
+<style>
+    ol {
+        list-style-type: decimal;
+    }   
+    .first>li {
+        background-color: yellow;
+        margin-right: 50px;
+
+    }
+    .first>li:nth-child(odd) {
+        background-color: blueviolet;
+    }
+    .second>li {
+        list-style-type: lower-roman;
+        margin-right: 50px;
+    }
+
+    .second>li:nth-child(odd) {
+        background-color: rgb(145, 178, 88);
+    }
+    div {
+        border: 10px double green;
+        background-color: rgb(247, 146, 109);
+    }
+
+</style>
+<body>
+    <div>
+        <ul class=""><li>Film  <p></p>
+            <ol class="first"><li> Condensed Plot</li>
+            <li>Background Information
+                <ul>
+                    <li>Stars</li>
+                    <li>Director</li>
+                    <li>Production Staff</li>
+                </ul>
+            </li>
+            <li>Arguments about the film</li>
+        
+            <li>Evaluation</li>
+            </ol>
+        </li></ul>
+
+        <ul><li>Research article
+            <ol class="second"><br>
+                <li>Abstract </li>
+                <li>Introduction</li>
+                <li>Review of literature</li>
+                <li>Research methods</li>
+                <li>Finding and Analysis</li>
+                <li>Discussion</li>
+            </ol>
+        </li></ul>
+    </div>
+    
+</body>
+</html>

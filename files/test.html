@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integreation</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: rgb(240, 48, 14);
+        display: flex;
+        flex-direction: column;
+    }
+    .firstside {
+        display: flex;
+        width: 300px;
+        background-color: #ffffff;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        box-shadow: #ffffff;
+        /* text-align: center; */
+        margin: 50px;
+        padding-left: 50px;
+
+    }
+    .secondside {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        height: 370px;
+        width: 300px;
+        
+    }
+    h1 {
+        font-weight: bolder;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    hr {
+        border-top: 2px solid rgb(240, 48, 14);
+        size: 70%;
+        width:100%;
+
+    }
+    p {
+        text-align: center;
+        margin: 5px;
+    }
+    .text {
+        margin: px;
+        padding: 7px;
+    }
+    img {
+        width: 300px;
+        height: 416px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    a {
+        text-decoration: none;
+    }
+    #Submit {
+        width: 180px;
+        height: 30px;
+        background-color: red;
+        border: 1px solid red 5px;
+        border-radius: 5px;
+    }
+    .one {
+        padding-left: 300px;
+        display: flex;
+    }
+    
+</style>
+<body>
+    <div class="one">
+    <div class="firstside">
+         <form action=""><br><br>   
+             <div><h1>LOGIN</h1><br><br>  
+            <hr><br><br>
+            <p>Explore the World!</p><br><br>
+
+            <label for=""> <b>Email</b></label><br>
+            <input type="email" class="text" placeholder="abc@gmail.com"><br><br>
+            <label for=""><b>Password</b></label><br>
+            <input type="password" class="text" placeholder="Please enter your password">
+        <br><br>
+        <button id="Submit">Submit</button><br><br>
+        <a href="">Forgot Password? </a> </div> 
+        
+       
+        </form><div class="secondside">
+            <img src="13.webp" alt="">
+        </div>
+        
+        
+
+    </div>
+</div>
+    
+
+    
+</body>
+</html>
